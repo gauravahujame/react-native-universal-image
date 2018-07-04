@@ -8,8 +8,7 @@ import {
     Image,
 } from 'react-native';
 
-// Untested for performance, need to test onLayout / repeated setState
-class ResponsiveImage extends React.Component {
+class UniversalImage extends React.Component {
     constructor(props) {
         super(props);
         this.style = StyleSheet.flatten(props.style);
@@ -172,4 +171,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default ResponsiveImage;
+export default UniversalImage;
