@@ -6,19 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravahujame/react-native-universal-image.git"
+  },
   "keywords": [
     "react",
     "native",
     "responsive",
     "image"
   ],
-  "peerDependencies": {
-    "react": ">= 15.x",
-    "react-native": ">= 0.47.x"
-  },
-  "author": "Gaurav Ahuja",
+  "author": "Gaurav Ahuja <gauravahuja.me@gmail.com> (http://gauravahuja.net)",
   "license": "ISC",
-  "devDependencies": {
-    "babel-preset-react-native": "^4.0.0"
-  }
+  "bugs": {
+    "url": "https://github.com/gauravahujame/react-native-universal-image/issues"
+  },
+  "homepage": "https://github.com/gauravahujame/react-native-universal-image#readme"
 }
