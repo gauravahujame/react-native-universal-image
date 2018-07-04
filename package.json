@@ -1,0 +1,24 @@
+{
+  "name": "react-native-universal-image",
+  "version": "1.0.0",
+  "description": "A responsive image component with progressive loading for react native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "responsive",
+    "image"
+  ],
+  "peerDependencies": {
+    "react": ">= 15.x",
+    "react-native": ">= 0.47.x"
+  },
+  "author": "Gaurav Ahuja",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-react-native": "^4.0.0"
+  }
+}
