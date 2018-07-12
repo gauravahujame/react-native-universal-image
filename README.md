@@ -7,6 +7,8 @@ An auto sizing image component with progressive loading for react native.
 Image component that resizes itself to contain the image.
 Progressively loads image with blur effect and spinner overlay.
 
+Note: For auto resize, please make sure your thumbnails are the same aspect ratio as the original image.
+
 ## Installation
 
 Since the library is a JS-based solution, to install the latest version of react-native-universal-image you only need to run:

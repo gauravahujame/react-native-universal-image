@@ -4,7 +4,10 @@
   "description": "A responsive image component with progressive loading for react native",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "adb": "adb reverse tcp:8081 tcp:8081 && adb reverse tcp:8082 tcp:8082 && adb reverse tcp:8090 tcp:8090 && adb reverse tcp:9090 tcp:9090",
+    "shake": "adb shell input keyevent 82",
+    "rr": "npm run adb && adb shell input text \"rr\""
   },
   "repository": {
     "type": "git",
