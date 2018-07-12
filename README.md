@@ -2,7 +2,7 @@
 
 An auto sizing image component with progressive loading for react native.
 
-![Universal Image](https://user-images.githubusercontent.com/33686528/42342900-14fcb654-80b5-11e8-8e52-83e4a458a4ae.gif)
+![Universal Image](https://user-images.githubusercontent.com/33686528/42618397-7fea56c0-85d2-11e8-8672-bc9f3d5f2afd.gif)
 
 Image component that resizes itself to contain the image.
 Progressively loads image with blur effect and spinner overlay.
