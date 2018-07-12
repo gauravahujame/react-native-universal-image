@@ -15,13 +15,13 @@ export default class App extends Component {
     super(props);
     this.items = [
       {
-        id: 1,
+        id: '1',
         thumbnail: 'https://i.imgur.com/xjOm5vo.jpg',
         image: 'https://i.imgur.com/66pKKsp.jpg',
         text: 'Lorem ipsum'
       },
       {
-        id: 2,
+        id: '2',
         thumbnail: 'https://i.imgur.com/Qax30GR.jpg',
         image: 'https://i.imgur.com/ZdDvfJa.jpg',
         text: 'Ipsum lorem'
