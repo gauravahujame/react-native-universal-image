@@ -43,6 +43,7 @@ export default class App extends Component {
                 thumbnailSource={{ uri: item.thumbnail }}
                 imageSource={{ uri: item.image }}
                 defaultHeight={350}
+                thumbnailBlurRadius={1}
                 thumbnailFadeDuration={5000}
                 imageFadeDuration={2000}
               />
